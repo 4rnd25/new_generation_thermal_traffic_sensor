@@ -1,0 +1,1 @@
+# new_generation_thermal_traffic_sensor
