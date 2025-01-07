@@ -22,10 +22,12 @@ This code was build using python 3.11. The requirements.txt file includes all ne
 
 
 ## Data
-The folder datahandling contains all necessary files: <br>
+The folder Dataset_Handling contains all necessary files: <br>
 
-        - tbd.py transfers the images and .csv files to yolov7 format <br>
-        - yolov7_dataset_evaluator.py enables to plot the class distribution  <br>
+	- create_dataset_yolo_format_wo_bottom_map.py transfers the images and .csv files to yolov7 format 
+	- dataset_analysis.py enables to plot the class distribution and to get the mean sizes  
+	- create_bottom_map.py creates the bottom maps
+	- create_cam_pos.py create the Camere Position files
         
 ## Training
 - For the general domain adaption and training on xtA the original train.py file could be used.
@@ -38,9 +40,9 @@ The folder datahandling contains all necessary files: <br>
 ## Evaluation
 - Models can be evaluated using Evaluation/model_evaluator.py
 - Pseudo labels can be evaluated using Evaluation/pseudo_label_evaluator.py or for multiple pseudo-labels: Evaluation/pseudo_label_folder_evaluator.py
-- The inference time could be mesured with yolov7/detect.py and for the onnx models with Evaluation/inference_time.py
+- The inference time could be mesured with yolov7/detect_xx.py and for the onnx models with Evaluation/inference_time.py
 
-## Ploting
+## Export
 - tbd
 
 ## Acknowledgements
