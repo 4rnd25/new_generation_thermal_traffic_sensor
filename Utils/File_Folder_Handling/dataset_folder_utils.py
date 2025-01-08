@@ -16,11 +16,11 @@ def getFolderList(datasetpath, foldername="XML_Files"):
         if not foldername in root:
             continue
         for dir in dirs:
-            if dir == "Train":
+            if "Train" in dir:
                 train_folder_list.append(os.path.join(root, dir))
-            elif dir == "Val":
+            elif "Val" in dir:
                 val_folder_list.append(os.path.join(root, dir))
-            elif dir == "Test":
+            elif "Test" in dir:
                 test_folder_list.append(os.path.join(root, dir))
 
     return train_folder_list, val_folder_list, test_folder_list
