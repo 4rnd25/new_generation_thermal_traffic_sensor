@@ -21,6 +21,7 @@ If you use this code, please cite the paper:
   doi     = {https://doi.org/10.1016/j.knosys.2025.113334},
   url     = {https://www.sciencedirect.com/science/article/pii/S0950705125003818}
 }
+```
 
 ## Table of Contents
 1. [Introduction](#introduction)
