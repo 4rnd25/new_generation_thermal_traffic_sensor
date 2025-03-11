@@ -5,7 +5,7 @@ This repository contains the code related to the paper:
 New Generation Thermal Traffic Sensor: A Novel Dataset and Monocular 3D Thermal Vision Framework
 
 📄 Paper link: [DOI: 10.1016/j.knosys.2025.113334](https://doi.org/10.1016/j.knosys.2025.113334) 
-📂 Dataset: 
+📂 Dataset: https://doi.org/10.17632/tw6ghtv624.1 
 
 📌 Citation
 If you use this code, please cite the paper:
