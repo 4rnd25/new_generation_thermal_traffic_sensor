@@ -7,20 +7,19 @@ New Generation Thermal Traffic Sensor: A Novel Dataset and Monocular 3D Thermal 
 📄 Paper link: [DOI: 10.1016/j.knosys.2025.113334](https://doi.org/10.1016/j.knosys.2025.113334) 
 📂 Dataset: 
 
+📌 Citation
 If you use this code, please cite the paper:
 
-java
-Kopieren
-Bearbeiten
+bibtex
 @Article{PETTIRSCH2025113334,
   author  = {Arnd Pettirsch and Alvaro Garcia-Hernandez},
-  journal = {Knowledge-Based Systems},
   title   = {New generation thermal traffic sensor: A novel dataset and monocular 3D thermal vision framework},
+  journal = {Knowledge-Based Systems},
   year    = {2025},
   issn    = {0950-7051},
   pages   = {113334},
   doi     = {https://doi.org/10.1016/j.knosys.2025.113334},
-  url     = {https://www.sciencedirect.com/science/article/pii/S0950705125003818},
+  url     = {https://www.sciencedirect.com/science/article/pii/S0950705125003818}
 }
 
 ## Table of Contents
